@@ -74,4 +74,5 @@ const UserSchema = new Schema(
  * User model
  */
 const UsersModel = models.User || model("User", UserSchema);
+export { MessageSchema as Message };
 export default UsersModel;
